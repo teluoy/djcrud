@@ -1,0 +1,10 @@
+
+<meta charset="utf-8">
+
+<form action="/blog_update_save/{{b.id}}" method="POST">
+	{%csrf_token%}
+	<input name="a" value="{{b.title}}">
+	<button>确定修改</button>
+</form>
+
+
